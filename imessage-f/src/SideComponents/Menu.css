@@ -1,0 +1,42 @@
+.menu {
+  flex: 0.35;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+.menu_header {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  height: 35px;
+  border-bottom: 1px solid lightgray;
+}
+.menu_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: rgb(160, 159, 159);
+  padding: 4px;
+  border-radius: 15px;
+}
+.search {
+  color: white;
+  scale: 0.75;
+}
+.searchbar {
+  background-color: rgb(160, 159, 159);
+  border: hidden;
+}
+::placeholder {
+  color: rgb(187, 185, 185);
+  opacity: 1;
+}
+.menu_input > input {
+  outline-width: 0;
+}
+.sign_out{
+  scale: 0.85;
+  color: red;
+  background-color: black;
+}

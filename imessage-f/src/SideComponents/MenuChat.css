@@ -1,0 +1,17 @@
+.menuChat {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+.menuChat:hover {
+  background-color: #318dfd;
+  color: white;
+}
+.chat_section{
+  margin-left: 20px;
+}
+.chat_section > p{
+  color: rgb(207, 203, 203);
+}

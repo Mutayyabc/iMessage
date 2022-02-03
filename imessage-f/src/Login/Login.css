@@ -1,0 +1,25 @@
+.login {
+  background-color: gray;
+  display: 100vw;
+  display: grid;
+  place-items: center;
+}
+.login_border {
+  padding: 100px;
+  text-align: center;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.login_border > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.login_border > button {
+  margin-top: 50px;
+  text-transform: inherit !important;
+  background-color: black!important;
+  color: white;
+}

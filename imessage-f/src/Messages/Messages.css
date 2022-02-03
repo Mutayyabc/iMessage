@@ -1,0 +1,62 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+  background-image: url("https://i.postimg.cc/59KWhT8S/Screen-Shot-2022-01-11-at-1-26-28-PM.png");
+}
+.messages_header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightgrey;
+  background-image: url("https://i.postimg.cc/4ywgpBC8/Screen-Shot-2022-01-10-at-9-13-29-AM.png");
+}
+.details_icon {
+  color: rgb(62, 142, 218);
+}
+.messages_header > h4 > span {
+  color: white;
+}
+.messages_header > h4 {
+  color: rgb(126, 123, 123);
+  font-weight: 500;
+}
+.messages_body {
+  color: white;
+  flex: 1;
+  padding: 15px;
+  overflow: scroll;
+}
+.emoji {
+  color: lightgray;
+}
+.mic{
+  color: grey;
+}
+.message_input {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  height: 35px;
+  border: 1px solid gray;
+}
+.message_input > form {
+  flex: 1;
+}
+.message_input > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 5px;
+  border: 1px solid gray;
+  width: 96%;
+  outline-width: 0;
+}
+.message_input  > form > button {
+  /* display: none*/
+  height: 0;
+  width: 0;
+  outline: transparent;
+  background: transparent;
+  border: none;
+} 
